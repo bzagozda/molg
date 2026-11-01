@@ -3,7 +3,7 @@ services:
     image: 'postgres:latest'
     environment:
       - 'POSTGRES_DB=molg'
-      - 'POSTGRES_PASSWORD=password'
-      - 'POSTGRES_USER=user'
+      - 'POSTGRES_PASSWORD=molg'
+      - 'POSTGRES_USER=molg'
     ports:
       - '5432'
